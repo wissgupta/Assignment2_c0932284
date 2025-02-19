@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="models.PersonTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-02-19T03:26:56" hostname="Wisss-MacBook-Air.local" time="0.002">
+<testsuite name="models.PersonTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-02-19T05:16:07" hostname="Wisss-MacBook-Air.local" time="0.001">
   <properties/>
-  <testcase name="testValidPersonCreation()" classname="models.PersonTest" time="0.001"/>
+  <testcase name="testValidPersonCreation()" classname="models.PersonTest" time="0.0"/>
   <testcase name="testPersonCreationWithNullIdThrowsException()" classname="models.PersonTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

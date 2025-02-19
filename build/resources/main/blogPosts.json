@@ -1,0 +1,17 @@
+[
+  {
+    "id": "B001",
+    "authorId": "P001",
+    "postContent": "This is John Doe's first blog post."
+  },
+  {
+    "id": "B002",
+    "authorId": "P002",
+    "postContent": "This is Jane Smith's first blog post."
+  },
+  {
+    "id": "B003",
+    "authorId": "P001",
+    "postContent": "This is John Doe's second blog post."
+  }
+]

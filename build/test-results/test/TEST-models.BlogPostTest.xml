@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="models.BlogPostTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-02-19T03:26:56" hostname="Wisss-MacBook-Air.local" time="0.008">
+<testsuite name="models.BlogPostTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-02-19T05:16:06" hostname="Wisss-MacBook-Air.local" time="0.009">
   <properties/>
-  <testcase name="testValidBlogPostCreation()" classname="models.BlogPostTest" time="0.006"/>
+  <testcase name="testValidBlogPostCreation()" classname="models.BlogPostTest" time="0.007"/>
   <testcase name="testBlogPostCreationWithNullIdThrowsException()" classname="models.BlogPostTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
