@@ -1,0 +1,37 @@
+plugins {
+    id 'java'
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(21)) // Ensure Java 21
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Lombok (for annotations like @Getter, @ToString, etc.)
+    implementation 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    // Jackson for JSON serialization
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.16.0'
+
+    // JUnit 5 for Testing
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+
+    // Apache Commons (If needed)
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
